@@ -24,6 +24,11 @@ class WordsViewModel: ObservableObject {
 	private var wordlist: [WordPair] = []
 	private var disposables = Set<AnyCancellable>()
 
+	private var timer: Timer? = nil {
+		willSet {
+			timer?.invalidate()
+		}
+	}
 
 	init(repository: WordsRepositoryProtocol) {
 		self.repository = repository
@@ -59,7 +64,16 @@ class WordsViewModel: ObservableObject {
 
 extension WordsViewModel {
 
+	private func resetTimer() {
+		timer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: false) { _ in
+			self.incorrectAttempts += 1
+			self.displayNewWordpair()
+		}
+	}
+
 	private func displayNewWordpair() {
+		self.checkEndCondition()
+
 		let isCorrect = Int.random(in: 1...4) == 1
 
 		if isCorrect {
@@ -69,6 +83,8 @@ extension WordsViewModel {
 			// TODO: handle unwrap
 			currentWordPair = getRandomIncorrectPair(from: wordlist) ?? DisplayableWordPair.empty
 		}
+
+		self.resetTimer()
 	}
 
 	private func getRandomCorrectPair(from wordlist: [WordPair], previousPair: DisplayableWordPair?) -> DisplayableWordPair? {
@@ -101,5 +117,11 @@ extension WordsViewModel {
 
 		let newWordPair = WordPair(englishText: firstWordPair.englishText, spanishText: secondWordPair.spanishText)
 		return DisplayableWordPair(wordPair: newWordPair, correct: false)
+	}
+
+	private func checkEndCondition() {
+		if (incorrectAttempts == 3) || (correctAttempts + incorrectAttempts == 15) {
+			exit(0)
+		}
 	}
 }

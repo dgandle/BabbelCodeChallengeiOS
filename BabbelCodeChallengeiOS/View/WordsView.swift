@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WordsView: View {
-	@ObservedObject var viewModel: WordsViewModel
+	@StateObject var viewModel: WordsViewModel
 
     var body: some View {
 		VStack {

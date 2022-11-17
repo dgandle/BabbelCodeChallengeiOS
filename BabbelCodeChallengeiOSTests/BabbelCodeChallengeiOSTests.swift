@@ -55,4 +55,15 @@ class BabbelCodeChallengeiOSTests: XCTestCase {
 			XCTAssert(viewModel.incorrectAttempts == 1)
 		}
 	}
+
+	func testWordsViewModelTimer() {
+		let repository = TestRepository()
+		let viewModel = WordsViewModel(repository: repository)
+
+		viewModel.loadWords()
+
+		DispatchQueue.main.asyncAfter(deadline: .now() + 5.5) {
+			XCTAssert(viewModel.incorrectAttempts == 1)
+		}
+	}
 }

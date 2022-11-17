@@ -8,23 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		918658F12926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918658F02926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift */; };
-		918658F32926648100A4F9C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918658F22926648100A4F9C3 /* ContentView.swift */; };
+		918658F32926648100A4F9C3 /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918658F22926648100A4F9C3 /* WordsView.swift */; };
 		918658F52926648200A4F9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918658F42926648200A4F9C3 /* Assets.xcassets */; };
 		918658F82926648200A4F9C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918658F72926648200A4F9C3 /* Preview Assets.xcassets */; };
 		918659022926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918659012926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift */; };
-		9186590C2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186590B2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift */; };
-		9186590E2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186590D2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift */; };
+		9186591C2926654300A4F9C3 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 9186591B2926654300A4F9C3 /* words.json */; };
+		918659202926665C00A4F9C3 /* WordsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186591F2926665C00A4F9C3 /* WordsRepository.swift */; };
+		91865924292666E800A4F9C3 /* WordPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91865923292666E800A4F9C3 /* WordPair.swift */; };
+		91865926292667BF00A4F9C3 /* WordsError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91865925292667BF00A4F9C3 /* WordsError.swift */; };
+		918659302926725600A4F9C3 /* WordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186592F2926725600A4F9C3 /* WordsViewModel.swift */; };
+		9186593229267A4500A4F9C3 /* DisplayableWordPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186593129267A4500A4F9C3 /* DisplayableWordPair.swift */; };
+		91865934292686AC00A4F9C3 /* TestRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91865933292686AC00A4F9C3 /* TestRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		918658FE2926648200A4F9C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 918658E52926648000A4F9C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 918658EC2926648000A4F9C3;
-			remoteInfo = BabbelCodeChallengeiOS;
-		};
-		918659082926648200A4F9C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 918658E52926648000A4F9C3 /* Project object */;
 			proxyType = 1;
@@ -36,14 +34,18 @@
 /* Begin PBXFileReference section */
 		918658ED2926648100A4F9C3 /* BabbelCodeChallengeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabbelCodeChallengeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918658F02926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelCodeChallengeiOSApp.swift; sourceTree = "<group>"; };
-		918658F22926648100A4F9C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		918658F22926648100A4F9C3 /* WordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
 		918658F42926648200A4F9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		918658F72926648200A4F9C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		918658FD2926648200A4F9C3 /* BabbelCodeChallengeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabbelCodeChallengeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918659012926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelCodeChallengeiOSTests.swift; sourceTree = "<group>"; };
-		918659072926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabbelCodeChallengeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9186590B2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelCodeChallengeiOSUITests.swift; sourceTree = "<group>"; };
-		9186590D2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelCodeChallengeiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9186591B2926654300A4F9C3 /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		9186591F2926665C00A4F9C3 /* WordsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsRepository.swift; sourceTree = "<group>"; };
+		91865923292666E800A4F9C3 /* WordPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPair.swift; sourceTree = "<group>"; };
+		91865925292667BF00A4F9C3 /* WordsError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsError.swift; sourceTree = "<group>"; };
+		9186592F2926725600A4F9C3 /* WordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewModel.swift; sourceTree = "<group>"; };
+		9186593129267A4500A4F9C3 /* DisplayableWordPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayableWordPair.swift; sourceTree = "<group>"; };
+		91865933292686AC00A4F9C3 /* TestRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +63,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		918659042926648200A4F9C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +71,6 @@
 			children = (
 				918658EF2926648100A4F9C3 /* BabbelCodeChallengeiOS */,
 				918659002926648200A4F9C3 /* BabbelCodeChallengeiOSTests */,
-				9186590A2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests */,
 				918658EE2926648100A4F9C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +80,6 @@
 			children = (
 				918658ED2926648100A4F9C3 /* BabbelCodeChallengeiOS.app */,
 				918658FD2926648200A4F9C3 /* BabbelCodeChallengeiOSTests.xctest */,
-				918659072926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +88,12 @@
 			isa = PBXGroup;
 			children = (
 				918658F02926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift */,
-				918658F22926648100A4F9C3 /* ContentView.swift */,
-				918658F42926648200A4F9C3 /* Assets.xcassets */,
+				9186593829268CCF00A4F9C3 /* Model */,
 				918658F62926648200A4F9C3 /* Preview Content */,
+				9186593A29268D0900A4F9C3 /* Repository */,
+				9186591A2926653300A4F9C3 /* Resources */,
+				9186593729268CCA00A4F9C3 /* View */,
+				9186593929268CFB00A4F9C3 /* ViewModel */,
 			);
 			path = BabbelCodeChallengeiOS;
 			sourceTree = "<group>";
@@ -114,17 +110,52 @@
 			isa = PBXGroup;
 			children = (
 				918659012926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift */,
+				91865933292686AC00A4F9C3 /* TestRepository.swift */,
 			);
 			path = BabbelCodeChallengeiOSTests;
 			sourceTree = "<group>";
 		};
-		9186590A2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests */ = {
+		9186591A2926653300A4F9C3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9186590B2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift */,
-				9186590D2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift */,
+				9186591B2926654300A4F9C3 /* words.json */,
+				918658F42926648200A4F9C3 /* Assets.xcassets */,
 			);
-			path = BabbelCodeChallengeiOSUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9186593729268CCA00A4F9C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				918658F22926648100A4F9C3 /* WordsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9186593829268CCF00A4F9C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9186593129267A4500A4F9C3 /* DisplayableWordPair.swift */,
+				91865923292666E800A4F9C3 /* WordPair.swift */,
+				91865925292667BF00A4F9C3 /* WordsError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9186593929268CFB00A4F9C3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9186592F2926725600A4F9C3 /* WordsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9186593A29268D0900A4F9C3 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9186591F2926665C00A4F9C3 /* WordsRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +196,6 @@
 			productReference = 918658FD2926648200A4F9C3 /* BabbelCodeChallengeiOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		918659062926648200A4F9C3 /* BabbelCodeChallengeiOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 918659172926648200A4F9C3 /* Build configuration list for PBXNativeTarget "BabbelCodeChallengeiOSUITests" */;
-			buildPhases = (
-				918659032926648200A4F9C3 /* Sources */,
-				918659042926648200A4F9C3 /* Frameworks */,
-				918659052926648200A4F9C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				918659092926648200A4F9C3 /* PBXTargetDependency */,
-			);
-			name = BabbelCodeChallengeiOSUITests;
-			productName = BabbelCodeChallengeiOSUITests;
-			productReference = 918659072926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +210,6 @@
 						CreatedOnToolsVersion = 13.0;
 					};
 					918658FC2926648200A4F9C3 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 918658EC2926648000A4F9C3;
-					};
-					918659062926648200A4F9C3 = {
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 918658EC2926648000A4F9C3;
 					};
@@ -221,7 +230,6 @@
 			targets = (
 				918658EC2926648000A4F9C3 /* BabbelCodeChallengeiOS */,
 				918658FC2926648200A4F9C3 /* BabbelCodeChallengeiOSTests */,
-				918659062926648200A4F9C3 /* BabbelCodeChallengeiOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,19 +239,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9186591C2926654300A4F9C3 /* words.json in Resources */,
 				918658F82926648200A4F9C3 /* Preview Assets.xcassets in Resources */,
 				918658F52926648200A4F9C3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		918658FB2926648200A4F9C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		918659052926648200A4F9C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,8 +259,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				918658F32926648100A4F9C3 /* ContentView.swift in Sources */,
+				918659302926725600A4F9C3 /* WordsViewModel.swift in Sources */,
+				918658F32926648100A4F9C3 /* WordsView.swift in Sources */,
+				918659202926665C00A4F9C3 /* WordsRepository.swift in Sources */,
+				91865926292667BF00A4F9C3 /* WordsError.swift in Sources */,
 				918658F12926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift in Sources */,
+				9186593229267A4500A4F9C3 /* DisplayableWordPair.swift in Sources */,
+				91865924292666E800A4F9C3 /* WordPair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,15 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				918659022926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		918659032926648200A4F9C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9186590C2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift in Sources */,
-				9186590E2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift in Sources */,
+				91865934292686AC00A4F9C3 /* TestRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +285,6 @@
 			isa = PBXTargetDependency;
 			target = 918658EC2926648000A4F9C3 /* BabbelCodeChallengeiOS */;
 			targetProxy = 918658FE2926648200A4F9C3 /* PBXContainerItemProxy */;
-		};
-		918659092926648200A4F9C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 918658EC2926648000A4F9C3 /* BabbelCodeChallengeiOS */;
-			targetProxy = 918659082926648200A4F9C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -521,52 +515,6 @@
 			};
 			name = Release;
 		};
-		918659182926648200A4F9C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6D8Y8Z8FDA;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dgandle.BabbelCodeChallengeiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BabbelCodeChallengeiOS;
-			};
-			name = Debug;
-		};
-		918659192926648200A4F9C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6D8Y8Z8FDA;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.dgandle.BabbelCodeChallengeiOSUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BabbelCodeChallengeiOS;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -593,15 +541,6 @@
 			buildConfigurations = (
 				918659152926648200A4F9C3 /* Debug */,
 				918659162926648200A4F9C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		918659172926648200A4F9C3 /* Build configuration list for PBXNativeTarget "BabbelCodeChallengeiOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				918659182926648200A4F9C3 /* Debug */,
-				918659192926648200A4F9C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

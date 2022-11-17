@@ -6,28 +6,53 @@
 //
 
 import XCTest
+import Combine
 @testable import BabbelCodeChallengeiOS
 
 class BabbelCodeChallengeiOSTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+	private var disposables = Set<AnyCancellable>()
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+	func testWordsRepositoryDecodesJSON() {
+		let repository = WordsRepository()
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+		repository.wordlist()
+			.sink { completion in
+				switch completion {
+				case .finished:
+					break
+				case .failure(let error):
+					XCTFail(error.localizedDescription)
+				}
+			} receiveValue: { wordpair in
+				XCTAssertEqual(wordpair.first?.englishText, "primary school")
+			}
+			.store(in: &disposables)
+	}
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+	func testWordsViewModelLoadWords() {
+		let repository = TestRepository()
+		let viewModel = WordsViewModel(repository: repository)
 
+		viewModel.loadWords()
+
+		XCTAssert(viewModel.currentWordPair != DisplayableWordPair.empty)
+	}
+
+	func testWordsViewModelSelection() {
+		let repository = TestRepository()
+		let viewModel = WordsViewModel(repository: repository)
+
+		viewModel.loadWords()
+
+		let isCurrentSelectionCorrect = viewModel.currentWordPair.correct
+
+		viewModel.submit(selection: true)
+
+		if isCurrentSelectionCorrect {
+			XCTAssert(viewModel.correctAttempts == 1)
+		} else {
+			XCTAssert(viewModel.incorrectAttempts == 1)
+		}
+	}
 }

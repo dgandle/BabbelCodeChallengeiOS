@@ -10,8 +10,11 @@ import SwiftUI
 @main
 struct BabbelCodeChallengeiOSApp: App {
     var body: some Scene {
+		let repository = WordsRepository()
+		let viewModel = WordsViewModel(repository: repository)
+
         WindowGroup {
-            ContentView()
+            WordsView(viewModel: viewModel)
         }
     }
 }

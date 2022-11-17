@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		918658F12926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918658F02926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift */; };
+		918658F32926648100A4F9C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918658F22926648100A4F9C3 /* ContentView.swift */; };
+		918658F52926648200A4F9C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918658F42926648200A4F9C3 /* Assets.xcassets */; };
+		918658F82926648200A4F9C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 918658F72926648200A4F9C3 /* Preview Assets.xcassets */; };
+		918659022926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918659012926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift */; };
+		9186590C2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186590B2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift */; };
+		9186590E2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186590D2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		918658FE2926648200A4F9C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918658E52926648000A4F9C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918658EC2926648000A4F9C3;
+			remoteInfo = BabbelCodeChallengeiOS;
+		};
+		918659082926648200A4F9C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 918658E52926648000A4F9C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 918658EC2926648000A4F9C3;
+			remoteInfo = BabbelCodeChallengeiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		918658ED2926648100A4F9C3 /* BabbelCodeChallengeiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabbelCodeChallengeiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		918658F02926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelCodeChallengeiOSApp.swift; sourceTree = "<group>"; };
+		918658F22926648100A4F9C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		918658F42926648200A4F9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		918658F72926648200A4F9C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		918658FD2926648200A4F9C3 /* BabbelCodeChallengeiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabbelCodeChallengeiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918659012926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelCodeChallengeiOSTests.swift; sourceTree = "<group>"; };
+		918659072926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabbelCodeChallengeiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9186590B2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelCodeChallengeiOSUITests.swift; sourceTree = "<group>"; };
+		9186590D2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabbelCodeChallengeiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		918658EA2926648000A4F9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918658FA2926648200A4F9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918659042926648200A4F9C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		918658E42926648000A4F9C3 = {
+			isa = PBXGroup;
+			children = (
+				918658EF2926648100A4F9C3 /* BabbelCodeChallengeiOS */,
+				918659002926648200A4F9C3 /* BabbelCodeChallengeiOSTests */,
+				9186590A2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests */,
+				918658EE2926648100A4F9C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		918658EE2926648100A4F9C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				918658ED2926648100A4F9C3 /* BabbelCodeChallengeiOS.app */,
+				918658FD2926648200A4F9C3 /* BabbelCodeChallengeiOSTests.xctest */,
+				918659072926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918658EF2926648100A4F9C3 /* BabbelCodeChallengeiOS */ = {
+			isa = PBXGroup;
+			children = (
+				918658F02926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift */,
+				918658F22926648100A4F9C3 /* ContentView.swift */,
+				918658F42926648200A4F9C3 /* Assets.xcassets */,
+				918658F62926648200A4F9C3 /* Preview Content */,
+			);
+			path = BabbelCodeChallengeiOS;
+			sourceTree = "<group>";
+		};
+		918658F62926648200A4F9C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				918658F72926648200A4F9C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		918659002926648200A4F9C3 /* BabbelCodeChallengeiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				918659012926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift */,
+			);
+			path = BabbelCodeChallengeiOSTests;
+			sourceTree = "<group>";
+		};
+		9186590A2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9186590B2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift */,
+				9186590D2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift */,
+			);
+			path = BabbelCodeChallengeiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		918658EC2926648000A4F9C3 /* BabbelCodeChallengeiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918659112926648200A4F9C3 /* Build configuration list for PBXNativeTarget "BabbelCodeChallengeiOS" */;
+			buildPhases = (
+				918658E92926648000A4F9C3 /* Sources */,
+				918658EA2926648000A4F9C3 /* Frameworks */,
+				918658EB2926648000A4F9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabbelCodeChallengeiOS;
+			productName = BabbelCodeChallengeiOS;
+			productReference = 918658ED2926648100A4F9C3 /* BabbelCodeChallengeiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		918658FC2926648200A4F9C3 /* BabbelCodeChallengeiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918659142926648200A4F9C3 /* Build configuration list for PBXNativeTarget "BabbelCodeChallengeiOSTests" */;
+			buildPhases = (
+				918658F92926648200A4F9C3 /* Sources */,
+				918658FA2926648200A4F9C3 /* Frameworks */,
+				918658FB2926648200A4F9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918658FF2926648200A4F9C3 /* PBXTargetDependency */,
+			);
+			name = BabbelCodeChallengeiOSTests;
+			productName = BabbelCodeChallengeiOSTests;
+			productReference = 918658FD2926648200A4F9C3 /* BabbelCodeChallengeiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		918659062926648200A4F9C3 /* BabbelCodeChallengeiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 918659172926648200A4F9C3 /* Build configuration list for PBXNativeTarget "BabbelCodeChallengeiOSUITests" */;
+			buildPhases = (
+				918659032926648200A4F9C3 /* Sources */,
+				918659042926648200A4F9C3 /* Frameworks */,
+				918659052926648200A4F9C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				918659092926648200A4F9C3 /* PBXTargetDependency */,
+			);
+			name = BabbelCodeChallengeiOSUITests;
+			productName = BabbelCodeChallengeiOSUITests;
+			productReference = 918659072926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		918658E52926648000A4F9C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					918658EC2926648000A4F9C3 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					918658FC2926648200A4F9C3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 918658EC2926648000A4F9C3;
+					};
+					918659062926648200A4F9C3 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 918658EC2926648000A4F9C3;
+					};
+				};
+			};
+			buildConfigurationList = 918658E82926648000A4F9C3 /* Build configuration list for PBXProject "BabbelCodeChallengeiOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 918658E42926648000A4F9C3;
+			productRefGroup = 918658EE2926648100A4F9C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				918658EC2926648000A4F9C3 /* BabbelCodeChallengeiOS */,
+				918658FC2926648200A4F9C3 /* BabbelCodeChallengeiOSTests */,
+				918659062926648200A4F9C3 /* BabbelCodeChallengeiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		918658EB2926648000A4F9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918658F82926648200A4F9C3 /* Preview Assets.xcassets in Resources */,
+				918658F52926648200A4F9C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918658FB2926648200A4F9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918659052926648200A4F9C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		918658E92926648000A4F9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918658F32926648100A4F9C3 /* ContentView.swift in Sources */,
+				918658F12926648100A4F9C3 /* BabbelCodeChallengeiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918658F92926648200A4F9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918659022926648200A4F9C3 /* BabbelCodeChallengeiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918659032926648200A4F9C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9186590C2926648200A4F9C3 /* BabbelCodeChallengeiOSUITests.swift in Sources */,
+				9186590E2926648200A4F9C3 /* BabbelCodeChallengeiOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		918658FF2926648200A4F9C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918658EC2926648000A4F9C3 /* BabbelCodeChallengeiOS */;
+			targetProxy = 918658FE2926648200A4F9C3 /* PBXContainerItemProxy */;
+		};
+		918659092926648200A4F9C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 918658EC2926648000A4F9C3 /* BabbelCodeChallengeiOS */;
+			targetProxy = 918659082926648200A4F9C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9186590F2926648200A4F9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		918659102926648200A4F9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		918659122926648200A4F9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabbelCodeChallengeiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D8Y8Z8FDA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgandle.BabbelCodeChallengeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		918659132926648200A4F9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BabbelCodeChallengeiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 6D8Y8Z8FDA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgandle.BabbelCodeChallengeiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		918659152926648200A4F9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D8Y8Z8FDA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgandle.BabbelCodeChallengeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabbelCodeChallengeiOS.app/BabbelCodeChallengeiOS";
+			};
+			name = Debug;
+		};
+		918659162926648200A4F9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D8Y8Z8FDA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgandle.BabbelCodeChallengeiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabbelCodeChallengeiOS.app/BabbelCodeChallengeiOS";
+			};
+			name = Release;
+		};
+		918659182926648200A4F9C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D8Y8Z8FDA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgandle.BabbelCodeChallengeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabbelCodeChallengeiOS;
+			};
+			name = Debug;
+		};
+		918659192926648200A4F9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6D8Y8Z8FDA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgandle.BabbelCodeChallengeiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BabbelCodeChallengeiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		918658E82926648000A4F9C3 /* Build configuration list for PBXProject "BabbelCodeChallengeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9186590F2926648200A4F9C3 /* Debug */,
+				918659102926648200A4F9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918659112926648200A4F9C3 /* Build configuration list for PBXNativeTarget "BabbelCodeChallengeiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918659122926648200A4F9C3 /* Debug */,
+				918659132926648200A4F9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918659142926648200A4F9C3 /* Build configuration list for PBXNativeTarget "BabbelCodeChallengeiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918659152926648200A4F9C3 /* Debug */,
+				918659162926648200A4F9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		918659172926648200A4F9C3 /* Build configuration list for PBXNativeTarget "BabbelCodeChallengeiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				918659182926648200A4F9C3 /* Debug */,
+				918659192926648200A4F9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 918658E52926648000A4F9C3 /* Project object */;
+}

@@ -63,7 +63,6 @@ class WordsViewModel: ObservableObject {
 }
 
 extension WordsViewModel {
-
 	private func resetTimer() {
 		timer = Timer.scheduledTimer(withTimeInterval: 5.0, repeats: false) { _ in
 			self.incorrectAttempts += 1
@@ -77,10 +76,8 @@ extension WordsViewModel {
 		let isCorrect = Int.random(in: 1...4) == 1
 
 		if isCorrect {
-			// TODO: handle unwrap
 			currentWordPair = getRandomCorrectPair(from: wordlist, previousPair: currentWordPair) ?? DisplayableWordPair.empty
 		} else {
-			// TODO: handle unwrap
 			currentWordPair = getRandomIncorrectPair(from: wordlist) ?? DisplayableWordPair.empty
 		}
 
@@ -97,7 +94,6 @@ extension WordsViewModel {
 		if let newWordPair = newWordPair {
 			return DisplayableWordPair(wordPair: newWordPair, correct: true)
 		} else {
-			// TODO: handle error
 			return nil
 		}
 	}
@@ -107,7 +103,6 @@ extension WordsViewModel {
 			let firstWordPair = wordlist.randomElement(),
 			let secondWordPair =  wordlist.randomElement()
 		else {
-			// TODO: handle error
 			return nil
 		}
 

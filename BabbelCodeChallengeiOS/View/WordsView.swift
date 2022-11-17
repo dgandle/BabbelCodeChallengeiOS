@@ -14,38 +14,29 @@ struct WordsView: View {
 		VStack {
 			HStack {
 				Spacer()
-				VStack {
+				VStack(alignment: .trailing) {
 					Text("Correct Attempts: \(viewModel.correctAttempts)")
 					Text("Wrong Attempts: \(viewModel.incorrectAttempts)")
 				}
-				.font(.caption)
+				.font(.system(size: 14, weight: .regular))
 			}
 			Spacer()
 			Text(viewModel.currentWordPair.wordPair.spanishText)
 				.font(.system(size: 24, weight: .semibold))
 				.padding()
 			Text(viewModel.currentWordPair.wordPair.englishText)
+				.font(.system(size: 18, weight: .regular))
 				.padding()
 			Spacer()
 			HStack(spacing: 16) {
 				Button("Correct") {
 					viewModel.submit(selection: true)
 				}
-				.frame(maxWidth: .infinity)
-				.padding()
-				.overlay(
-					RoundedRectangle(cornerRadius: 8)
-						.stroke(Color.accentColor, lineWidth: 2)
-				)
+				.buttonStyle(WordsButton(style: .correct))
 				Button("Wrong") {
 					viewModel.submit(selection: false)
 				}
-				.frame(maxWidth: .infinity)
-				.padding()
-				.overlay(
-					RoundedRectangle(cornerRadius: 8)
-						.stroke(Color.accentColor, lineWidth: 2)
-				)
+				.buttonStyle(WordsButton(style: .wrong))
 			}
 		}
 		.padding()
